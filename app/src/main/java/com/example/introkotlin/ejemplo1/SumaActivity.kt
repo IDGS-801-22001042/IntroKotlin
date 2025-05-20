@@ -66,7 +66,7 @@ class SumaActivity : AppCompatActivity() {
             val resultadoFormateado = if (resultado % 1 == 0.0) {
             } else {
             }
-            tv1.text = "Resultado $operacionTexto: $resultadoFormateado"
+            tv1.text = "Resultado $operacionTexto: ${resultado}"
         } else {
             tv1.text = "Resultado: Selecciona operación"
         }
