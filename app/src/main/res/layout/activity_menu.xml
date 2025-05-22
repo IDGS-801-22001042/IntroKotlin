@@ -17,4 +17,21 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"/>
 
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:text="Cinepolis"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:text="Saludo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
+
 </LinearLayout>
