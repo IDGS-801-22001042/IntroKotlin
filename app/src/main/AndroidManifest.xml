@@ -13,6 +13,18 @@
         android:theme="@style/Theme.IntroKotlin"
         tools:targetApi="31">
         <activity
+            android:name=".diccionario.BuscarActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight"/>
+        <activity
+            android:name=".diccionario.CapturarActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight"/>
+        <activity
+            android:name=".diccionario.DiccionarioActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
             android:name=".cinepolis.Cinepolis"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.DayNight" />

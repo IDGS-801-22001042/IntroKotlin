@@ -27,10 +27,18 @@
         tools:ignore="MissingConstraints"/>
 
     <Button
-        android:id="@+id/btn3"
+    android:id="@+id/btn3"
+    android:layout_width="365dp"
+    android:layout_height="wrap_content"
+    android:text="Saludo"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/btn4"
         android:layout_width="365dp"
         android:layout_height="wrap_content"
-        android:text="Saludo"
+        android:text="Diccionario"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"/>
 
